@@ -17,11 +17,15 @@ Para ver o estado e nome do proceso emprego, docker ps -a. Con el amoso todos os
 
 
 ## Crea un contenedor con el nombre 'dam_alp1'. ¿Como puedes acceder a él?
+<img width="617" height="123" alt="image" src="https://github.com/user-attachments/assets/a55e7b22-83dc-48bc-ba06-01f455e99f9b" />
+Agora, con docker run, creo e arranco un novo contedor a partir da imaxe. Con -d inicioo en segundo plano. As terminacións -i e -t (imput e cmd) permitiránme acceder logo no contenedor se o preciso. Finalmente, só engado o nome que quero porlle ao meu contedor.
+
 ## Comprueba que ip tiene y si puedes hacer un ping a google.com
 ## Crea un contenedor con el nombre 'dam_alp2'. ¿Puedes hacer ping entre los contenedores?
 ## Sal del terminal, ¿que ocurrió con el contenedor?
 ## ¿Cuanta memoria en el disco duro ocupaste?
 ## ¿Cuanta RAM ocupan los contenedores? ¿Hay algún comando docker para saber esto?.
+
 
 
 
