@@ -31,9 +31,13 @@ Introduzo o comando ping e indico a que dirección o quero facer, neste caso goo
 
 
 ## Crea un contenedor con el nombre 'dam_alp2'. ¿Puedes hacer ping entre los contenedores?
+<img width="539" height="97" alt="image" src="https://github.com/user-attachments/assets/cc2b165b-f2ed-4379-a644-d1af02e39ece" />
+Con exit saio do anterior contedor.
+
 ## Sal del terminal, ¿que ocurrió con el contenedor?
 ## ¿Cuanta memoria en el disco duro ocupaste?
 ## ¿Cuanta RAM ocupan los contenedores? ¿Hay algún comando docker para saber esto?.
+
 
 
 
