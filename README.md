@@ -39,12 +39,28 @@ Creo o contedor do mesmo xeito que fixemos antes.
 <img width="605" height="75" alt="image" src="https://github.com/user-attachments/assets/20364cd0-fc77-43b6-9cc7-b875ff71790d" />
 Executo o contedor como se explicou anteriormente.
 <img width="419" height="118" alt="image" src="https://github.com/user-attachments/assets/2099ca71-28f2-4714-854c-6ebd30728d98" />
-Coma se ve, o meu comando fallou, esto é porque os contedores por defescto están na rede Bridge. Esto fai que a rede non sepa a que dirección IP corresponde ese nome, é dicir, que carece dun servizo que faga resolución DNS.
 
+Coma se ve, o meu comando fallou, esto é porque os contedores por defescto están na rede Bridge. Esto fai que a rede non sepa a que dirección IP corresponde ese nome, é dicir, que carece dun servizo que faga resolución DNS.
+### Extra
+Decidín arreglar este problema e fixen o seguinte:
+<img width="367" height="52" alt="image" src="https://github.com/user-attachments/assets/bafaff88-272a-4a0b-b9e7-d9477eb2eb2d" />
+Primeiro saín do contedor onde estaba e non podía facer o ping.
+<img width="479" height="157" alt="image" src="https://github.com/user-attachments/assets/ee15e884-cfbd-4a0a-9c31-b650455b12aa" />
+Logo parei os dous contedores que creara para despois eliminalos. Esto fíxeno para poder traballar cunha rede limpa que non me de problemas.
+<img width="603" height="55" alt="image" src="https://github.com/user-attachments/assets/bfb2dd8a-603d-4bda-9b8c-75ea8b81f471" />
+Creei unha nova rede sofia-rede-monisima, esto realiceino xa que Docker dota a estas redes que creamos automáticamente son equipadas cun servizo de DNS interno, que me permitirá usar os nomes dos contedores creados.
+<img width="750" height="122" alt="image" src="https://github.com/user-attachments/assets/9086a0c5-e5bd-42ab-ae6a-1f43e54b2df1" />
+Igual que antes creo os meus contedores, pero neste caso no final do comando engado tamén a miña nova rede.
+<img width="583" height="214" alt="image" src="https://github.com/user-attachments/assets/15eeb1a4-618d-4c9f-af8a-f74525ddfe26" />
+Fago o ping coma antes, pero neste caso funciona, xa que a diferencia de antes a rede pode entender ós nomes aos que me refiro.
 
 ## Sal del terminal, ¿que ocurrió con el contenedor?
+<img width="917" height="175" alt="image" src="https://github.com/user-attachments/assets/3b5f2e9b-e43d-4291-975b-7e8649ba7edb" />
+Saín con exit, e logo fixen ps-a para ver todos os contedores que creara. O contedor ó que fixen exit sigue funcionando xa que só pechei a sesión que me conectaba con el non o contedor en si. O meu proceso de 10min aparece pechado porque rematou o seu tempo de duracion (os 10 min).
+
 ## ¿Cuanta memoria en el disco duro ocupaste?
 ## ¿Cuanta RAM ocupan los contenedores? ¿Hay algún comando docker para saber esto?.
+
 
 
 
