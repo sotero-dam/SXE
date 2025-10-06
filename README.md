@@ -70,6 +70,10 @@ Saín con exit, e logo fixen ps-a para ver todos os contedores que creara. O con
 Para ver a memoria que usei, emprego docker system df, para ver o uso do meu disco. En total, entre imaxes e contedores terei usado uns 129MB.
 
 ## ¿Cuanta RAM ocupan los contenedores? ¿Hay algún comando docker para saber esto?.
+<img width="953" height="137" alt="image" src="https://github.com/user-attachments/assets/b16f600f-1b1f-4fb1-8e2d-313f5f668544" />
+
+Si, so tiven que usar docker stats. Poiden apreciar que, dam_alp1 e dam_alp2, están practicamente inactivos e cada un só executa un PID.
+
 
 
 
