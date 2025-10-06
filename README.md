@@ -5,6 +5,8 @@
 ---
 
 ## Descarga la imagen "alpine" SIN ARRANCARLA y comprueba que está en tu equipo
+<img width="832" height="431" alt="image" src="https://github.com/user-attachments/assets/c2823bcf-e0b8-4187-9ba9-7bd06e2b7595" />
+Comenzo descargando Alpine co comando docker pull alpine. Logo emprego docker images para ver unha lista das imaxes instaladas.
 
 
 ## Crea un contenedor sin ponerle nombre. ¿está arrancado? Obtén el nombre
@@ -14,4 +16,5 @@
 ## Sal del terminal, ¿que ocurrió con el contenedor?
 ## ¿Cuanta memoria en el disco duro ocupaste?
 ## ¿Cuanta RAM ocupan los contenedores? ¿Hay algún comando docker para saber esto?.
+
 
