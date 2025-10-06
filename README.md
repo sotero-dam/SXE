@@ -26,11 +26,15 @@ Para acceder ao contedor, doulle ao terminal a instrucción de executar o comand
 ## Comprueba que ip tiene y si puedes hacer un ping a google.com
 <img width="815" height="274" alt="image" src="https://github.com/user-attachments/assets/e5d624b1-5aa7-4f7a-9ae6-4274818646ca" />
 Fago un ip -a para ver a IP interna do contedor.
+<img width="647" height="467" alt="image" src="https://github.com/user-attachments/assets/b26dc9d1-2ff0-45ae-8046-dcd862533cac" />
+Introduzo o comando ping e indico a que dirección o quero facer, neste caso google.com, para ver se ten conectividade. É moi importante empregar CONTROL + C, para parar o ping.
+
 
 ## Crea un contenedor con el nombre 'dam_alp2'. ¿Puedes hacer ping entre los contenedores?
 ## Sal del terminal, ¿que ocurrió con el contenedor?
 ## ¿Cuanta memoria en el disco duro ocupaste?
 ## ¿Cuanta RAM ocupan los contenedores? ¿Hay algún comando docker para saber esto?.
+
 
 
 
