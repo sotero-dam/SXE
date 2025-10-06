@@ -36,11 +36,15 @@ Introduzo o comando ping e indico a que dirección o quero facer, neste caso goo
 Con exit saio do anterior contedor.
 <img width="690" height="88" alt="image" src="https://github.com/user-attachments/assets/686d9eb3-75ac-4d6e-b9ac-fcbe93d33fb6" />
 Creo o contedor do mesmo xeito que fixemos antes.
+<img width="605" height="75" alt="image" src="https://github.com/user-attachments/assets/20364cd0-fc77-43b6-9cc7-b875ff71790d" />
+Executo o contedor como se explicou anteriormente.
+
 
 
 ## Sal del terminal, ¿que ocurrió con el contenedor?
 ## ¿Cuanta memoria en el disco duro ocupaste?
 ## ¿Cuanta RAM ocupan los contenedores? ¿Hay algún comando docker para saber esto?.
+
 
 
 
