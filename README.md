@@ -66,7 +66,11 @@ Fago o ping coma antes, pero neste caso funciona, xa que a diferencia de antes a
 Saín con exit, e logo fixen ps-a para ver todos os contedores que creara. O contedor ó que fixen exit sigue funcionando xa que só pechei a sesión que me conectaba con el non o contedor en si. O meu proceso de 10min aparece pechado porque rematou o seu tempo de duracion (os 10 min).
 
 ## ¿Cuanta memoria en el disco duro ocupaste?
+<img width="635" height="133" alt="image" src="https://github.com/user-attachments/assets/a8b31964-b75d-4bf9-b062-b9f367849520" />
+Para ver a memoria que usei, emprego docker system df, para ver o uso do meu disco. En total, entre imaxes e contedores terei usado uns 129MB.
+
 ## ¿Cuanta RAM ocupan los contenedores? ¿Hay algún comando docker para saber esto?.
+
 
 
 
