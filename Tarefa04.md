@@ -25,4 +25,10 @@ Aquí creo o contendor con mapeo de puertos y bind mount
 <img width="1030" height="96" alt="image" src="https://github.com/user-attachments/assets/64a58de1-61de-4537-9cdd-111218dfe435" />
 Emprego este comando para comprobar que o contendor creouse correctamente
 
+<img width="1032" height="34" alt="image" src="https://github.com/user-attachments/assets/1f6b9a1a-0283-4049-9f56-80e4e067a2b0" />
+<img width="1042" height="211" alt="image" src="https://github.com/user-attachments/assets/5e7ba2c6-0b70-4f00-a7e3-d9fa06437d9e" />
 
+Aquí edito o contendor para que diga hola mundo e o fago a través do porto 8000 do ordenador. Tras isto entro no navegador e comprobo que, efectivamente, funciona correctamente
+
+<img width="969" height="46" alt="image" src="https://github.com/user-attachments/assets/53762fec-ce34-44e9-9e5c-7f981c8dc539" />
+Aquí creo outro contendor asociado ao mismo bind mount pero a outro porto, o 9080
