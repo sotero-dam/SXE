@@ -1,3 +1,8 @@
+# Tarefa Docker 04 
+**Desenvolvido por**: Sofía Otero  
+**Asignatura**: SXE
+
+---
 
 ## 1. Descarga la imagen 'httpd' y comprueba que está en tu equipo.
 <img width="1032" height="339" alt="image" src="https://github.com/user-attachments/assets/d463c056-b8b1-4655-aef5-eed8ef009c74" />
@@ -22,11 +27,6 @@ Nesta imaxe podemos ver que funciona.
 ## 4. Utiliza bind mount para que el directorio del apache2 'htdocs' esté montado un directorio que tu elijas.
 <img width="834" height="266" alt="image" src="https://github.com/user-attachments/assets/6c3ff275-cb6d-451b-81b1-1e4f9cde8b15" />
 Primeiro creo un directorio no que se almacenará o docker. Tras isto paro o contendor e o reinicio
-# Tarefa Docker 04 
-**Desenvolvido por**: Sofía Otero  
-**Asignatura**: SXE
-
----
 
 <img width="1127" height="53" alt="image" src="https://github.com/user-attachments/assets/4424e61f-ea6d-4b66-b343-1503466f906d" />
 Aquí creo o contendor con mapeo de puertos y bind mount
