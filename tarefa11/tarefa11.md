@@ -5,6 +5,9 @@
 Este documento serve como un manual de instrucións detallado sobre como configurei e executei a aplicación Odoo 18
 Community xunto coa ferramenta de xestión de bases de datos PgAdmin 4, utilizando Docker Compose para despregar todos os servizos.
 
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/a0117b49-4c99-460e-a876-c1d2d1896a93" />
+
+
 ## Preparación do meu IDE (Visual Studio Code)
 
 O primeiro que fixen foi preparar o meu editor de código para traballar con Docker.
@@ -125,6 +128,7 @@ Finalmente, volvín a PgAdmin. Ao inspeccionar a base de datos a través da cone
 <img width="2238" height="684" alt="image" src="https://github.com/user-attachments/assets/a128e5fd-2066-4fae-a844-e893b831dd46" />
 
 <img width="1213" height="702" alt="image" src="https://github.com/user-attachments/assets/ae2db075-cf6b-4787-b371-a6001ec057de" />
+
 
 
 
