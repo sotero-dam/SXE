@@ -22,6 +22,16 @@
 
 <img width="832" height="470" alt="image" src="https://github.com/user-attachments/assets/a66de274-5507-4264-b1a1-7977af6f7d62" />
 
+## Exercicio 6
+
+<img width="828" height="412" alt="image" src="https://github.com/user-attachments/assets/20624b50-4de7-4e25-84a7-b0ae247f7ceb" />
+
+<img width="814" height="449" alt="image" src="https://github.com/user-attachments/assets/122373db-6c4b-4aaf-94fe-890c9e2a2864" />
+
+<img width="821" height="446" alt="image" src="https://github.com/user-attachments/assets/39a86a7d-f57a-4880-b1c7-17cf1c07a0f7" />
+
+
+
 
 
 
