@@ -4,6 +4,8 @@
 
 ## Exercicio 2
 
+Tiven que usar este método para introducir contactos que busquei en internet xa que me era imposible introducilos de xeito normal, sen pedir o id. Parece ser que algunhas partes da demo non se cargaran a pesar de clicar en ese recadro ao crear a base.
+
 <img width="1239" height="552" alt="image" src="https://github.com/user-attachments/assets/0a240395-df33-4831-819d-1143d0e7653e" />
 
 <img width="1217" height="577" alt="image" src="https://github.com/user-attachments/assets/c969975e-65af-4651-8e8a-75ac9079ab66" />
@@ -29,6 +31,12 @@
 <img width="814" height="449" alt="image" src="https://github.com/user-attachments/assets/122373db-6c4b-4aaf-94fe-890c9e2a2864" />
 
 <img width="821" height="446" alt="image" src="https://github.com/user-attachments/assets/39a86a7d-f57a-4880-b1c7-17cf1c07a0f7" />
+
+## Exercicio 7
+
+Creii contactos con email, para este caso, xa que os que creara antes non tiñan. Tamén tiven que facer un update previamente dos correos.
+
+<img width="1533" height="703" alt="image" src="https://github.com/user-attachments/assets/7897a47e-4689-40e2-bb6b-afc97b35afd8" />
 
 
 
