@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="partner_chinese_fidelidad_stats_form" model="ir.ui.view">
+            <field name="name">partner.chinese.stats.form.herencia</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+                
+                <xpath expr="//notebook" position="inside">
+                    <page string="Estadísticas Chinas" name="chinese_stats_full">
+                        
+                        <group string="Movidas astrales y de fidelidad">
+                            <field name="partner_code"/> 
+                            <field name="fidelity_level" readonly="1"/>
+                            <field name="birth_date"/>
+                            <field name="age" readonly="1"/> 
+                            <field name="chinese_zodiac" readonly="1"/>
+                        </group>
+                        
+                    </page>
+
+                    <page string="Membresía" name="membership_tab_simple">
+                        <group string="Nivel de Fidelidad">
+                            <field name="fidelity_level" readonly="1"/>
+                        </group>
+                    </page>
+                </xpath>
+
+            </field>
+        </record>
+
+
+        <record model="ir.ui.view" id="partner_chinese_stats_fidelizacion_list">
+            <field name="name">partner.chinese.stats.list.herencia</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_tree"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='complete_name']" position="after">
+                    <field name="fidelity_level" decoration-primary="fidelity_level == 'Premium' or fidelity_level == 'Gold'"/>
+                    <field name="chinese_zodiac" optional="show"/>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="partner_chinese_stats_fidelizacion_kanban" model="ir.ui.view">
+            <field name="name">partner.chinese.stats.kanban.herencia</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.res_partner_kanban_view"/>
+            <field name="arch" type="xml">
+                 
+                <xpath expr="//field[@name='display_name']" position="before">
+                    <field name="partner_code" invisible="1"/> 
+                </xpath>
+
+                <xpath expr="//field[@name='display_name']" position="after">
+                    <br/> 
+                    <t t-if="record.partner_code.raw_value">
+                        <span style="font-weight: bold; color: #444;">
+                            <t t-esc="record.partner_code.raw_value"/>
+                        </span>
+                    </t>
+                </xpath>
+            </field>
+        </record>
+
+    </data>
+</odoo>
