@@ -1,0 +1,66 @@
+<odoo>
+    <data>
+        <template id="report_workshop_document">
+            <t t-call="web.html_container">
+                <t t-foreach="docs" t-as="doc">
+                    <t t-call="web.external_layout">
+                        <div class="page" style="font-size: 15px;">
+                            
+                            <div class="text-center mb-4">
+                                <h2>Orde de Preparación Chunga</h2>
+                                <h1 t-field="doc.name" style="font-weight: bold; font-size: 40px;"/>
+                            </div>
+
+                            <div class="row mb-4" style="border-bottom: 1px solid #e76590; padding-bottom: 20px;">
+                                <div class="col-6">
+                                    <strong>Cliente:</strong><br/>
+                                    <span t-field="doc.partner_id.name" style="font-size: 18px;"/>
+                                </div>
+                                <div class="col-6 text-end">
+                                    <strong>Data:</strong><br/>
+                                    <span t-field="doc.date_order" t-options='{"widget": "date"}'/>
+                                </div>
+                            </div>
+
+                            <table class="table table-bordered table-sm mt-4">
+                                <thead>
+                                    <tr style="background-color: #f8f9fa;">
+                                        <th class="text-center" style="width: 10%;">Control</th>
+                                        <th class="text-start">Produto</th>
+                                        <th class="text-end" style="width: 20%;">Cantidade</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <t t-foreach="doc.order_line" t-as="line">
+                                        <tr t-if="not line.display_type">
+                                            <td class="text-center align-middle">
+                                                <div style="width: 25px; height: 25px; border: 2px solid #eb71c6; margin: 0 auto; border-radius: 4px;"></div>
+                                            </td>
+                                            <td class="align-middle">
+                                                <span t-field="line.product_id.name" style="font-weight: bold;"/>
+                                                <t t-if="line.name != line.product_id.name">
+                                                    <br/><small class="text-muted" t-field="line.name"/>
+                                                </t>
+                                            </td>
+                                            <td class="text-end align-middle">
+                                                <span t-field="line.product_uom_qty" style="font-size: 18px; font-weight: bold;"/>
+                                                <span t-field="line.product_uom" class="ms-1"/>
+                                            </td>
+                                        </tr>
+                                    </t>
+                                </tbody>
+                            </table>
+
+                            <div class="row mt-5">
+                                <div class="col-12 text-center" style="margin-top: 60px;">
+                                    <div style="border-top: 1px solid #000; width: 40%; margin: 0 auto;"></div>
+                                    <span class="text-muted">Sinatura do Operari@</span>
+                                </div>
+                            </div>
+                        </div>
+                    </t>
+                </t>
+            </t>
+        </template>
+    </data>
+</odoo>
